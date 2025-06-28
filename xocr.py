@@ -68,10 +68,13 @@ def extract_code(code_source):
 
     return "\n".join(corrected_lines)
 
-if __name__ == '__main__':
+def main():
     parser = argparse.ArgumentParser(description="Accept a file path as input.")
     parser.add_argument("file_path", type=str, help="Path to the input file")
     args = parser.parse_args()
 
     code = extract_code(args.file_path)
     print(code)
+
+if __name__ == '__main__':
+    main()
