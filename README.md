@@ -16,7 +16,8 @@ swiftc xocr.swift -o xocr
 
 # OCR Examples
 
-![Example 1 - Indented Python](./examples/e1.png)
+<img src="./examples/e1.png" alt="Indented Python" height="400"/>
+
 ```python
 @app. route('/upload', methods=[ 'POST'])
 def upload Limage () :
@@ -35,8 +36,9 @@ def upload Limage () :
       if abs(textl'y'][il - textl'y'][i - 1]) < 0.0025:
         current_line.append (text ['Content'] [il)
 ```
-<br>
-![Example 2 - Formatted Text](./examples/e3.png)
+
+<img src="./examples/e3.png" alt="Formatted Text" height="400"/>
+
 ```
 From: Steve Jobs, sjobs@apple.com
 To: Steve Jobs, sjobs@apple.com
@@ -59,8 +61,8 @@ Date: Thursday, September 2, 2010 at 11:08PM
     Sent from my iPad
 ```
 
-<br>
-![Example 3 - Structured Java](./examples/e4.png)
+<img src="./examples/e4.png" alt="Structured Java" height="300"/>
+
 ```java
 package com.crezam.demandmvp.DemandMvpApiGatewayNew.util;
 import org.springframework.stereotype.Component;
