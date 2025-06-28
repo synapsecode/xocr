@@ -23,9 +23,9 @@ def get_lines(elements):
     return lines
 
 def correct_lines(lines, min_x):
-    GRANULARITY = 0.02
-    INDENT_LEVEL = 4
-    WORD_SPACING = 0.01
+    GRANULARITY = 0.05
+    INDENT_LEVEL = 2
+    WORD_SPACING = 0.05
     final_lines = []
     for line in lines:
         line = sorted(line, key=lambda e: e[1])
